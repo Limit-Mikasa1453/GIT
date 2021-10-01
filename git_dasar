@@ -1,7 +1,7 @@
 Bismillahirrahmanirohim
 
 ===============================
---GIT DASAR
+--CARA INSTALLASI GIT DI LINUX
 ===============================
 # apt-get install git
     //For Ubuntu, this PPA provides the latest stable upstream Git version
@@ -61,22 +61,29 @@ $ alias git_graph="git log --all --decorate --oneline --graph"
 $ git clone [https | ssh | cli]
     //mengkloning repository dari hithub ke pc
 
+$ git remote | git remote -v
+    //cek alamat remote 
+
 $ git push
     // sync pc vs github
+
+$ git config --[global | local | system] user.name "yourusername"
+$ git config --[global | local | system] user.email "youremail@gmail.com"
+
 
 $ https://git-scm.com/docs 
     //documentation git
 
 
 ===============================
---CREATE TOKEN HTTPS CLONE
+--CREATE TOKEN HTTPS CLONE GITHUB
 ===============================
 $ password token
 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
 
 
 ===============================
---CREATE SSH KEY CLONE
+--CREATE SSH KEY CLONE GITHUB
 ===============================
 $ cd ~/.ssh
 $ ls 
