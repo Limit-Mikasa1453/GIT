@@ -1,15 +1,104 @@
 Bismillahirrahmanirohim
 
 ===============================
+--CARA INSTALLASI GIT DI LINUX
+===============================
+# apt-get install git
+    //For Ubuntu, this PPA provides the latest stable upstream Git version
+
+# add-apt-repository ppa:git-core/ppa # apt update; apt install git
+    //Fedora
+
+# try your cli linux
+
+# https://git-scm.com/download/linux
+
+===============================
 --GIT DASAR
 ===============================
-$ git init //membuat repository agar di pantau oleh git
+$ git init 
+    //membuat repository agar di pantau oleh git
 
+$ git add . | git git add [nf.ext]
+    //menambahakan baru ke staging area
+
+$ git commit -m "coment"] | git commit -am ["comment"]
+    //menyimpan perubahan file dan menyertakan deskipsi dari perubahan tsb
+
+$ git status 
+    //cek file perubahan pada repository
+
+$ git branch
+    //cek nama2 branch dan branch aktif
+
+$ git branch [nm_brc]
+    //menambahkan branch baru
+
+$ git branch -d [nm_brc] | git branch -D [nm_brc]
+    //menghapus branc
+
+$ git branch -m [old_brc] [new_brc]
+    //rename nama branch
+
+$ git merge
+    //mengabungkan data file dari dua branch
+
+$ git checkout [7_digit_code_hash] <nm_fl.ext>
+    //berpindah ke komit yg sebelumnya
+
+$ git checkout [nm_brc] 
+    //switch to branch
+
+$ git log | git log -3
+    //cek history perubahan
+
+$ git log --all --decorate --oneline --graph
+    //view graphic history
+
+$ alias git_graph="git log --all --decorate --oneline --graph"
+    //membuah alias pada subuah fungsi di linux  
+
+$ git clone [https | ssh | cli]
+    //mengkloning repository dari hithub ke pc
+
+$ git remote | git remote -v
+    //cek alamat remote 
+
+$ git push
+    // sync pc vs github
+
+$ git config --[global | local | system] user.name "yourusername"
+$ git config --[global | local | system] user.email "youremail@gmail.com"
+
+
+$ https://git-scm.com/docs 
+    //documentation git
+
+
+===============================
+--CREATE TOKEN HTTPS CLONE GITHUB
+===============================
 $ password token
 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
 
 
 ===============================
---SSH KEY
+--CREATE SSH KEY CLONE GITHUB
 ===============================
+$ cd ~/.ssh
+$ ls 
+$ ssh-keygen -o -t rsa -C "your@email.com"
+    //command to generate a new key pair
+$ Generating public/private rsa key pair.
+  Enter file in which to save the key (/Users/username/.ssh/id_rsa):
+    //enter for default
+$ Enter passphrase (empty for no passphrase):
+  Enter same passphrase again:
+    enter for no passphrase
+$ cat ~/.ssh/id_rsa.pub 
+    //Add your public key to GitHub
+
+
 https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
+
+
