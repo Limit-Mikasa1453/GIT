@@ -7,3 +7,9 @@ $ git init //membuat repository agar di pantau oleh git
 
 $ password token
 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
+
+
+===============================
+--SSH KEY
+===============================
+https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
