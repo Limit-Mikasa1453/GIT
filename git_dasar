@@ -67,6 +67,9 @@ $ git remote | git remote -v
 $ git push
     // sync pc vs github
 
+$ git pull
+    //merge remote to pc
+
 $ git fetch 
     //cek history komit yang ada diremote
 
