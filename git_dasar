@@ -67,6 +67,9 @@ $ git remote | git remote -v
 $ git push
     // sync pc vs github
 
+$ git fetch 
+    //cek history komit yang ada diremote
+
 $ git config --[global | local | system] user.name "yourusername"
 $ git config --[global | local | system] user.email "youremail@gmail.com"
 
