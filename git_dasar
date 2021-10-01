@@ -73,12 +73,24 @@ $ git pull
 $ git fetch 
     //cek history komit yang ada diremote
 
+$ git config --list
+    //list configurasi git
+
 $ git config --[global | local | system] user.name "yourusername"
 $ git config --[global | local | system] user.email "youremail@gmail.com"
 
 
 $ https://git-scm.com/docs 
     //documentation git
+
+===============================
+--REMOTE GITHUB FALSE LOCAL TRUE
+===============================
+$ buat repository di github but uncheck readme.md
+$ git remote add [nm_origin] git@github.com:[username_github]/[repo].git
+$ git branch -M [nm_brc]
+$ git push -u [nm_origin] [nm_brc]
+
 
 
 ===============================
