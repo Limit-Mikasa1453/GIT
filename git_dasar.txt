@@ -42,12 +42,19 @@ $ git branch -m [old_brc] [new_brc]
 
 $ git merge
     //mengabungkan data file dari dua branch
+    -fast-forward Merge
+    -three-way Merge / Merge commit
+
+$ git rebase
 
 $ git checkout [7_digit_code_hash] <nm_fl.ext>
     //berpindah ke komit yg sebelumnya
 
 $ git checkout [nm_brc] 
     //switch to branch
+
+$ git checkout -b [nm_brc] 
+    //switch to branch and add new branch
 
 $ git log | git log -3
     //cek history perubahan
@@ -133,7 +140,11 @@ doc .gitignore
     - [name_os] [text_editor] [name_app]
     - copy file yg disarankan ignore
 
-
+===============================
+-- GITHUB
+===============================
+-Calibator (mengajak orang lain untuk kerja sama mengelola repository tanpa
+    pull request)
 
 
 ===============================
