@@ -116,7 +116,27 @@ $ Enter passphrase (empty for no passphrase):
 $ cat ~/.ssh/id_rsa.pub 
     //Add your public key to GitHub
 
+===============================
+-- .GITIGNORE
+===============================
+- create file <.gitignore> in your repository
+- isi file git .ignore
+    -cofig.txt (file)
+    -data/ (folder)
+    -*.exe (all file exe)
 
+doc .gitignore
+- https://github.com/github/gitignore
+    - show list name_app yg di sarankan untuk ignore
+    - copy file yg disarankan ignore
+- https://gitignore.io
+    - [name_os] [text_editor] [name_app]
+    - copy file yg disarankan ignore
+
+
+
+
+===============================
 https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
 
 json
