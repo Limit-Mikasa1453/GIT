@@ -124,7 +124,8 @@ $ git push
   
 ### `git pull` merge remote to pc
 ```ruby
-$ git pull
+$ git pull 
+$ git pull <nama_origin> <branch_name>
 ```
   
 ### `git fetch` cek history commit pada remote github
@@ -147,6 +148,8 @@ $ git config --<global or local or system> user.email "youremail@gmail.com"
 $ git remote add <nama_origin> git@github.com:<username_github>/<repo>.git
 $ git branch -M <nama_branch>
 $ git push -u <nama_origin> <nm_brc>
+$ git push -u <nama_origin> HEAD:<nm_brc>
+
 ```
 
 # :coffee: CREATE TOKEN HTTPS CLONE GITHUB
